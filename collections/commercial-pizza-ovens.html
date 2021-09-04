@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#ffffff">
 
   
-    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1643/3881/files/Favicon-NEW_32x32.png?v=1564077715" type="image/png">
+    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1643/3881/files/Favicon-NEW_32x32.png?v=" type="image/png">
   
   
   
@@ -54,7 +54,7 @@
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
   </script>
 
-  <link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.scss.css?v=14016233456411142939" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.scss.css?v=" rel="stylesheet" type="text/css" media="all" />
   
   
   
@@ -86,13 +86,13 @@
 
   
 
-  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=10611380127122478187" defer="defer"></script><!--<![endif]-->
-  <!--[if lt IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=10611380127122478187"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=" defer="defer"></script><!--<![endif]-->
+  <!--[if lt IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v="></script><![endif]-->
 
   
 
-  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=2453551181190314623" defer="defer"></script><!--<![endif]-->
-  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=2453551181190314623"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=190314623" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=190314623"></script><![endif]-->
   
   
 
@@ -112,12 +112,12 @@
     self.fetch||(self.fetch=function(e,n){return n=n||{},new Promise(function(t,s){var r=new XMLHttpRequest,o=[],u=[],i={},a=function(){return{ok:2==(r.status/100|0),statusText:r.statusText,status:r.status,url:r.responseURL,text:function(){return Promise.resolve(r.responseText)},json:function(){return Promise.resolve(JSON.parse(r.responseText))},blob:function(){return Promise.resolve(new Blob([r.response]))},clone:a,headers:{keys:function(){return o},entries:function(){return u},get:function(e){return i[e.toLowerCase()]},has:function(e){return e.toLowerCase()in i}}}};for(var c in r.open(n.method||"get",e,!0),r.onload=function(){r.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,function(e,n,t){o.push(n=n.toLowerCase()),u.push([n,t]),i[n]=i[n]?i[n]+","+t:t}),t(a())},r.onerror=s,r.withCredentials="include"==n.credentials,n.headers)r.setRequestHeader(c,n.headers[c]);r.send(n.body||null)})});
 
   
-    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.css?v=8776498627899802706",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at support@heliumdev.com"),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
+    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.css?v=899802706",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at "),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
   
 
   </script>
 
-  <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.js?v=9920919015434134662" async></script>
+  <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.js?v=434134662" async></script>
 
 
   
@@ -184,7 +184,7 @@ Shopify.shop = "ifoodequipment-com-inc.myshopify.com";
 Shopify.locale = "en";
 Shopify.currency = {"active":"CAD","rate":"1.0"};
 Shopify.country = "CA";
-Shopify.theme = {"name":"Feb 6 - with Google ads tag","id":80610656349,"theme_store_id":null,"role":"main"};
+Shopify.theme = {"name":"Feb 6 - with Google ads tag","id":9,"theme_store_id":null,"role":"main"};
 Shopify.theme.handle = "null";
 Shopify.theme.style = {"id":null,"handle":null};
 Shopify.cdnHost = "cdn.shopify.com";</script>
@@ -192,7 +192,7 @@ Shopify.cdnHost = "cdn.shopify.com";</script>
 <script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
 <script>(function() {
   function asyncLoad() {
-    var urls = ["https:\/\/embed.tawk.to\/widget-script\/59f7782b4854b82732ff8f37\/default.js?shop=ifoodequipment-com-inc.myshopify.com","\/\/www.searchanise.com\/widgets\/shopify\/init.js?a=2N7E7L3D4r\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/105\/assets\/verify-meteor-menu.js?meteor_tier=premium\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/6cd0742edb4bbe98d9faa9827\/c9d22f60682253a53a0bc1a15.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d34uoa9py2cgca.cloudfront.net\/shopify-app\/helper-scripts\/sezzle-footer-logo-fix.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/117\/assets\/globo.alsobought.init.js?v=1625552962\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d3hw6dc1ow8pp2.cloudfront.net\/reviewsWidget.min.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com"];
+    var urls = ["https:\/\/embed.tawk.to\/widget-script\/59f7782b4854b82732ff8f37\/default.js?shop=ifoodequipment-com-inc.myshopify.com","\/\/www.searchanise.com\/widgets\/shopify\/init.js?a=2D4r\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/105\/assets\/verify-meteor-menu.js?meteor_tier=premium\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/6cd0742edb4bbe98d9faa9827\/c9d22f60682253a53a0bc1a15.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d34uoa9py2cgca.cloudfront.net\/shopify-app\/helper-scripts\/sezzle-footer-logo-fix.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/117\/assets\/globo.alsobought.init.js?v=\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d3hw6dc1ow8pp2.cloudfront.net\/reviewsWidget.min.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com"];
     for (var i = 0; i < urls.length; i++) {
       var s = document.createElement('script');
       s.type = 'text/javascript';
@@ -208,12 +208,12 @@ Shopify.cdnHost = "cdn.shopify.com";</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":16433881,"offset":-10800,"reqid":"74523a51-e5ee-4974-8143-6b3c9ee25f2f","pageurl":"ifoodequipment.ca\/collections\/commercial-pizza-ovens","u":"d6b7694825cb","p":"collection","rtyp":"collection","rid":56380489821};</script>
+<script id="__st">var __st={"a":16433881,"offset":-10800,"reqid":"74523a51-e5ee-4974-8143-6b3c9ee25f2f","pageurl":"ifoodequipment.ca\/collections\/commercial-pizza-ovens","u":"d6b7694825cb","p":"collection","rtyp":"collection","rid":1};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'CAD';
-var meta = {"page":{"pageType":"collection","resourceType":"collection","resourceId":56380489821},"evids":{"pv":"Page View","vprd":"Viewed Product","ps":"Performed Search"}};
+var meta = {"page":{"pageType":"collection","resourceType":"collection","resourceId":1},"evids":{"pv":"Page View","vprd":"Viewed Product","ps":"Performed Search"}};
 for (var attr in meta) {
   window.ShopifyAnalytics.meta[attr] = meta[attr];
 }</script>
@@ -334,7 +334,7 @@ for (var attr in meta) {
     Monorail.produce('monorail-edge.shopifysvc.com',
       'trekkie_storefront_load_errors/1.1',
       {shop_id: 16433881,
-      theme_id: 80610656349,
+      theme_id: 9,
       app_name: "storefront",
       context_url: window.location.href,
       source_url: "https://cdn.shopify.com/s/trekkie.storefront.9672a532d77d261ce44aebf99ae2276d052a55f9.min.js"});
@@ -349,7 +349,7 @@ for (var attr in meta) {
     first.parentNode.insertBefore(script, first);
   };
   trekkie.load(
-    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16433881,"isMerchantRequest":null,"themeId":80610656349,"themeCityHash":"12314796191806773333","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Google Analytics":{"trackingId":"UA-83743559-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16433881,"isMerchantRequest":null,"themeId":9,"themeCityHash":"","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Google Analytics":{"trackingId":"UA-83743559-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
   );
 
   var loaded = false;
@@ -410,7 +410,7 @@ for (var attr in meta) {
         window.BOOMR.themeName = "Venture";
         window.BOOMR.themeVersion = "2.0.0";
         window.BOOMR.shopId = 16433881;
-        window.BOOMR.themeId = 80610656349;
+        window.BOOMR.themeId = 9;
         window.BOOMR.url =
           "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
         var where = document.currentScript || document.getElementsByTagName("script")[0];
@@ -545,7 +545,7 @@ for (var attr in meta) {
       })();
     
 
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"collection","resourceType":"collection","resourceId":56380489821});
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"collection","resourceType":"collection","resourceId":1});
 
     var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
     var token = match? match[1]: undefined;
@@ -563,8 +563,8 @@ for (var attr in meta) {
     
 })();</script>
 <script>!function(e){e.addEventListener("DOMContentLoaded",function(){var t=['form[action^="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action^="/account"] input[name="form_type"][value="customer_login"]','form[action^="/account"] input[name="form_type"][value="recover_customer_password"]','form[action^="/account"] input[name="form_type"][value="create_customer"]'].join(",");null!==e.querySelector(t)&&(window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"},(t=e.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.5/index.js"),e.body.appendChild(t))})}(document);</script>
-<script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a987674749989983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
-<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+<script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a89983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
 
 
 <style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
@@ -588,7 +588,7 @@ var shopUrl = "ifoodequipment-com-inc.myshopify.com"
 page = 'collection' 
 </script> 
  
-<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/tricon-label.js?v=6316730107323987372" async></script> 
+<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/tricon-label.js?v=323987372" async></script> 
 
 
   
@@ -645,8 +645,8 @@ page = 'collection'
 .pt-display-swatch ul .filter-active-good .collection-name .check-icon {
   text-shadow: none !important;
 }</style>
-<link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.scss.css?v=13452122874790995880" rel="stylesheet" type="text/css" media="all" />
-<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.js?v=3342327581188566299" type="text/javascript"></script>
+<link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.scss.css?v=" rel="stylesheet" type="text/css" media="all" />
+<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.js?v=188566299" type="text/javascript"></script>
 
 
 
@@ -667,8 +667,8 @@ page = 'collection'
  
 
 <script>window.__pagefly_analytics_settings__={"acceptTracking":false};</script>
- <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/omcan-pe-cn-3200-d-electric-double-deck-countertop-pizza-oven-18-wide-chambers-16798737355_1024x1024_c4cefbbc-6209-4b0d-b79b-c3121066f919.png?v=1530134491" />
-<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/omcan-pe-cn-3200-d-electric-double-deck-countertop-pizza-oven-18-wide-chambers-16798737355_1024x1024_c4cefbbc-6209-4b0d-b79b-c3121066f919.png?v=1530134491" />
+ <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/omcan-pe-cn-3200-d-electric-double-deck-countertop-pizza-oven-18-wide-chambers-5_1024x1024_c4cefbbc-6209-4b0d-b79b-c3121066f919.png?v=" />
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/omcan-pe-cn-3200-d-electric-double-deck-countertop-pizza-oven-18-wide-chambers-5_1024x1024_c4cefbbc-6209-4b0d-b79b-c3121066f919.png?v=" />
 <meta property="og:image:width" content="1024" />
 <meta property="og:image:height" content="997" />
 <meta property="og:image:alt" content="Commercial Pizza Ovens" />
@@ -734,7 +734,7 @@ page = 'collection'
 
       <!-- HC - added links for mobile menu - 5 Feb '19 -->
       <li class="drawer__nav-item">
-        <a class="drawer__nav-link" href="tel:18553885999">1 (855) 388-5999</a>
+        <a class="drawer__nav-link" href="tel:9">1 </a>
       </li>
       <li class="drawer__nav-item">
         <a class="drawer__nav-link liveChat" href="javascript:void(Tawk_API.toggle())"></a>
@@ -774,8 +774,8 @@ page = 'collection'
           
             
             <a href="../index.html" itemprop="url" class="site-header__logo-link">
-              <img src="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v=1587750587"
-                   srcset="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v=1587750587 1x, https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c@2x.png?v=1587750587 2x"
+              <img src="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v="
+                   srcset="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v= 1x, https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-?v= 2x"
                    alt="iFoodEquipment.ca"
                    itemprop="logo">
             </a>
@@ -800,10 +800,10 @@ page = 'collection'
             </button>
           </form>
           
-          <a class="phone_num_holder" href="tel:18553885999">1-855-388-5999</a>
+          <a class="phone_num_holder" href="tel:9">1-</a>
           
           <!-- HC - App changes - 31 Jan '19 / added placeholder text - 1 Feb '19 -->
-          <div id="status"><a class="email_holder" href="mailto:sales@ifoodequipment.ca">Email Us</a></div>
+          <div id="status"><a class="email_holder" href="mailto:">Email Us</a></div>
 
           <a href="https://ifoodequipment.ca/cart" class="site-header__link site-header__cart">
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 31 32"><path d="M14.568 25.629c-1.222 0-2.111.889-2.111 2.111 0 1.111 1 2.111 2.111 2.111 1.222 0 2.111-.889 2.111-2.111s-.889-2.111-2.111-2.111zm10.22 0c-1.222 0-2.111.889-2.111 2.111 0 1.111 1 2.111 2.111 2.111 1.222 0 2.111-.889 2.111-2.111s-.889-2.111-2.111-2.111zm2.555-3.777H12.457L7.347 7.078c-.222-.333-.555-.667-1-.667H1.792c-.667 0-1.111.444-1.111 1s.444 1 1.111 1h3.777l5.11 14.885c.111.444.555.666 1 .666h15.663c.555 0 1.111-.444 1.111-1 0-.666-.555-1.111-1.111-1.111zm2.333-11.442l-18.44-1.555h-.111c-.555 0-.777.333-.667.889l3.222 9.22c.222.555.889 1 1.444 1h13.441c.555 0 1.111-.444 1.222-1l.778-7.443c.111-.555-.333-1.111-.889-1.111zm-2 7.443H15.568l-2.333-6.776 15.108 1.222-.666 5.554z"/></svg>
@@ -1005,7 +1005,7 @@ page = 'collection'
 
 <!-- Created with Shogun. -->
 
-<div class="shogun-root" data-shogun-id="5b08474a7a4f46008934698d" data-shogun-site-id="22f170e1-b02f-4c9d-b821-37b9236901be" data-shogun-page-id="5b08474a7a4f46008934698d" data-shogun-page-version-id="5db82c4e8391f1004e790b79" data-shogun-platform-type="shopify" data-shogun-variant-id="5db82c4e8391f1004e790c3c" data-region="above">
+<div class="shogun-root" data-shogun-id="5b08474a7a4f8d" data-shogun-site-id="22f170e1-b02f-4c9d-b821-37b9236901be" data-shogun-page-id="5b08474a7a4f8d" data-shogun-page-version-id="5db82c4e8391f1004e790b79" data-shogun-platform-type="shopify" data-shogun-variant-id="5db82c4e8391f1004e790c3c" data-region="above">
   <link rel="stylesheet" type="text/css" href="https://cdn.getshogun.com/5db82c4e8391f1004e790c3c.css" />
 
 <script type="text/javascript" src="https://lib.getshogun.com/lazysizes/2.0.0/shogun-lazysizes.js" async></script>
@@ -1038,12 +1038,12 @@ page = 'collection'
         <div class="section-header__subtext rte read-more-container">
           <!-- Created with Shogun. -->
 
-<div class="shogun-root" data-shogun-id="5b08474a7a4f46008934698d" data-shogun-site-id="22f170e1-b02f-4c9d-b821-37b9236901be" data-shogun-page-id="5b08474a7a4f46008934698d" data-shogun-page-version-id="5db82c4e8391f1004e790b79" data-shogun-platform-type="shopify" data-shogun-variant-id="5db82c4e8391f1004e790c3c" data-region="main">
+<div class="shogun-root" data-shogun-id="5b08474a7a4f8d" data-shogun-site-id="22f170e1-b02f-4c9d-b821-37b9236901be" data-shogun-page-id="5b08474a7a4f8d" data-shogun-page-version-id="5db82c4e8391f1004e790b79" data-shogun-platform-type="shopify" data-shogun-variant-id="5db82c4e8391f1004e790c3c" data-region="main">
   
 <script type="text/javascript" src="https://lib.getshogun.com/lazysizes/2.0.0/shogun-lazysizes.js" async></script>
 
 <div class="shg-box-vertical-align-wrapper">
-    <div class="shg-box shg-c    " id="s-79036502-9071-48a3-9757-a1d607d9c5b7">
+    <div class="shg-box shg-c    " id="s-79-48a3-9757-a1d607d9c5b7">
       <div class="shg-box-overlay"></div>
 <div class="shg-box-content">
         
@@ -1268,7 +1268,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-countertop-pizza-oven-double-chamber-240v.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-cn-3200-d-electric-double-deck-countertop-pizza-oven-18-x-18-x-4-decks-11422586011741_480x480.png?v=1614865891" alt="Omcan Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-cn-3200-d-electric-double-deck-countertop-pizza-oven-18-x-18-x-4-decks-1741_480x480.png?v=" alt="Omcan Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1370,7 +1370,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/bakemax-bmcb001-conveyor-baker.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/bakemax-bmcb001-electric-countertop-conveyor-oven-14-wide-belt-11422516805725_480x480.jpg?v=1560372122" alt="BakeMax Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/bakemax-bmcb001-electric-countertop-conveyor-oven-14-wide-belt-5725_480x480.jpg?v=" alt="BakeMax Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1466,7 +1466,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-conveyor-oven-with-14-conveyor-belt.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-ce-tw-0356-electric-countertop-conveyor-oven-14-wide-belt-11422435803229_480x480.jpg?v=1560394366" alt="Omcan Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-ce-tw-0356-electric-countertop-conveyor-oven-14-wide-belt-3229_480x480.jpg?v=" alt="Omcan Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1562,7 +1562,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-countertop-pizza-oven-single-chamber-120v.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-cn-1800-s-electric-countertop-pizza-deck-oven-18-x-18-x-4-deck-11422586208349_480x480.png?v=1614865859" alt="Omcan Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-cn-1800-s-electric-countertop-pizza-deck-oven-18-x-18-x-4-deck-8349_480x480.png?v=" alt="Omcan Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1670,7 +1670,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-pe-it-0010-electric-pizza-deck-oven-19-6-wide-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0010-electric-countertop-pizza-deck-oven-19-x-19-x-5-deck-11422252859485_480x480.png?v=1560399903" alt="Omcan Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0010-electric-countertop-pizza-deck-oven-19-x-19-x-5-deck-9485_480x480.png?v=" alt="Omcan Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1766,7 +1766,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-entry-max-series-pizza-oven-with-double-chamber-220v0.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0038-d-economy-double-deck-electric-pizza-oven-27-x-27-x-6-decks-11422588567645_480x480.png?v=1560366028" alt="Omcan Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0038-d-economy-double-deck-electric-pizza-oven-27-x-27-x-6-decks-7645_480x480.png?v=" alt="Omcan Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1862,7 +1862,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/waring-wpo750-double-deck-electric-countertop-pizza-oven-18-wide-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-wpo750-electric-double-deck-countertop-pizza-oven-18-x-18-x-4-decks-31439843983523_480x480.jpg?v=1628340162" alt="Waring Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-wpo750-electric-double-deck-countertop-pizza-oven-18-x-18-x-4-decks-3523_480x480.jpg?v=" alt="Waring Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1964,7 +1964,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-pyralis-series-pizza-oven-with-double-chamber-and-mechanical-display-220v0-132-kw.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0048-d-double-deck-electric-pizza-oven-27-x-27-x-6-decks-11422587781213_480x480.png?v=1560364125" alt="Omcan Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0048-d-double-deck-electric-pizza-oven-27-x-27-x-6-decks-1213_480x480.png?v=" alt="Omcan Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2060,7 +2060,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/turbochef-high-h-2020-ventless-electric-conveyor-oven-20-wide-belt-20-cooking-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/turbochef-high-h-2020-ventless-electric-conveyor-oven-20-wide-belt-20-cooking-chamber-11421996646493_480x480.png?v=1562403684" alt="TurboChef Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/turbochef-high-h-2020-ventless-electric-conveyor-oven-20-wide-belt-20-cooking-chamber-6493_480x480.png?v=" alt="TurboChef Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2156,7 +2156,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/turbochef-fire-high-speed-pizza-oven-3-high-14-wide-14-deep-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/turbochef-fire-high-speed-pizza-oven-with-convection-3-x-14-x-14-cavity-hwd-11421996810333_480x480.png?v=1562403639" alt="TurboChef High Speed Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/turbochef-fire-high-speed-pizza-oven-with-convection-3-x-14-x-14-cavity-hwd-0333_480x480.png?v=" alt="TurboChef High Speed Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2240,7 +2240,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/waring-wpo500-electric-countertop-pizza-oven-18-wide-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-wpo500-electric-countertop-pizza-deck-oven-18-x-18-x-4-deck-11606702850141_480x480.jpg?v=1628339623" alt="Waring Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-wpo500-electric-countertop-pizza-deck-oven-18-x-18-x-4-deck-0141_480x480.jpg?v=" alt="Waring Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2342,7 +2342,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-24g-gas-countertop-pizza-oven-19-wide-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-24g-gas-double-deck-single-chamber-countertop-pizza-oven-19-x-22-decks-11422279729245_480x480.jpg?v=1560387811" alt="Sierra Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-24g-gas-double-deck-single-chamber-countertop-pizza-oven-19-x-22-decks-9245_480x480.jpg?v=" alt="Sierra Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2444,7 +2444,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/omcan-entry-max-series-pizza-oven-with-single-chamber-220v0.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0019-s-economy-electric-pizza-deck-oven-27-x-27-x-6-deck-11422440226909_480x480.png?v=1560393885" alt="Omcan Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-pe-it-0019-s-economy-electric-pizza-deck-oven-27-x-27-x-6-deck-6909_480x480.png?v=" alt="Omcan Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2540,7 +2540,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/turbochef-eco-high-speed-oven-with-impingement-microwave-12-5-x-10-5-x-7-2-cavity-wdh.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/turbochef-eco-high-speed-oven-with-impingement-microwave-12-5-x-10-5-x-7-2-cavity-wdh-28017494851747_480x480.png?v=1614704458" alt="TurboChef High Speed Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/turbochef-eco-high-speed-oven-with-impingement-microwave-12-5-x-10-5-x-7-2-cavity-wdh-1747_480x480.png?v=" alt="TurboChef High Speed Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2630,7 +2630,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/vollrath-jb3h-electric-countertop-conveyor-oven-14-5-wide-belt.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jb3h-electric-countertop-conveyor-oven-14-5-wide-belt-19871565873315_480x480.png?v=1610744232" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jb3h-electric-countertop-conveyor-oven-14-5-wide-belt-3315_480x480.png?v=" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2732,7 +2732,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/vollrath-jb2h-electric-countertop-conveyor-oven-10-5-wide-belt.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jb2h-electric-countertop-conveyor-oven-10-5-wide-belt-19871104008355_480x480.png?v=1610744219" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jb2h-electric-countertop-conveyor-oven-10-5-wide-belt-8355_480x480.png?v=" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2834,7 +2834,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/copy-of-vollrath-jpo18-ventless-electric-conveyor-oven-18-wide-belt-26-cooking-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jpo18-ventless-electric-conveyor-oven-18-wide-belt-26-cooking-chamber-19848413905059_480x480.png?v=1610744252" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jpo18-ventless-electric-conveyor-oven-18-wide-belt-26-cooking-chamber-5059_480x480.png?v=" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2946,7 +2946,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/vollrath-jpo14-electric-conveyor-oven-14-wide-belt-26-cooking-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jpo14-ventless-electric-conveyor-oven-14-wide-belt-26-cooking-chamber-19814936707235_480x480.png?v=1604696694" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/vollrath-jpo14-ventless-electric-conveyor-oven-14-wide-belt-26-cooking-chamber-7235_480x480.png?v=" alt="Vollrath Countertop Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3048,7 +3048,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/copy-of-middleby-ps638e-ventless-fast-bake-electric-conveyor-oven-26-wide-belt-38-cooking-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/middleby-ps638e-v-ventless-fast-bake-electric-conveyor-oven-26-wide-belt-38-cooking-chamber-19603782140067_480x480.png?v=1603375729" alt="Middleby Conveyor Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/middleby-ps638e-v-ventless-fast-bake-electric-conveyor-oven-26-wide-belt-38-cooking-chamber-0067_480x480.png?v=" alt="Middleby Conveyor Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3144,7 +3144,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-72g-2-gas-double-deck-pizza-deck-oven-72-x-42-x-68-deck.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-72g-2-gas-double-deck-pizza-deck-oven-72-x-42-x-68-deck-13196753633373_480x480.jpg?v=1571229811" alt="Sierra Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-72g-2-gas-double-deck-pizza-deck-oven-72-x-42-x-68-deck-3373_480x480.jpg?v=" alt="Sierra Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3234,7 +3234,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-72g-gas-pizza-deck-oven-72-x-42-x-58-deck.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-72g-gas-pizza-deck-oven-72-x-42-x-58-deck-13196560367709_480x480.jpg?v=1571229752" alt="Sierra Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-72g-gas-pizza-deck-oven-72-x-42-x-58-deck-7709_480x480.jpg?v=" alt="Sierra Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3324,7 +3324,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-60g-2-gas-double-deck-pizza-deck-oven-60-x-42-x-68-deck.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-60g-2-gas-double-deck-pizza-deck-oven-60-x-42-x-68-deck-13196289638493_480x480.jpg?v=1571229770" alt="Sierra Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-60g-2-gas-double-deck-pizza-deck-oven-60-x-42-x-68-deck-8493_480x480.jpg?v=" alt="Sierra Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3414,7 +3414,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-60g-gas-pizza-deck-oven-60-x-42-x-58-deck.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-60g-gas-pizza-deck-oven-60-x-42-x-58-deck-13196079792221_480x480.jpg?v=1571229873" alt="Sierra Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-60g-gas-pizza-deck-oven-60-x-42-x-58-deck-2221_480x480.jpg?v=" alt="Sierra Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3504,7 +3504,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-48g-2-gas-double-deck-pizza-deck-oven-48-x-42-x-36-deck.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-48g-2-gas-double-deck-pizza-deck-oven-48-x-42-x-36-deck-13195277500509_480x480.jpg?v=1571229889" alt="Sierra Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-48g-2-gas-double-deck-pizza-deck-oven-48-x-42-x-36-deck-0509_480x480.jpg?v=" alt="Sierra Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3594,7 +3594,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-48g-gas-pizza-deck-oven-48-x-42-x-36-deck.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-48g-gas-pizza-deck-oven-48-x-42-x-36-deck-13193170976861_480x480.jpg?v=1571229572" alt="iBeeCool Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-48g-gas-pizza-deck-oven-48-x-42-x-36-deck-6861_480x480.jpg?v=" alt="iBeeCool Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3684,7 +3684,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-volare-gas-pizza-deck-oven-38-6-rotating-decks.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-volare-gas-pizza-deck-oven-38-6-rotating-decks-12455582269533_480x480.png?v=1568661150" alt="Bakers Pride Pizza Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-volare-gas-pizza-deck-oven-38-6-rotating-decks-9533_480x480.png?v=" alt="Bakers Pride Pizza Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3780,7 +3780,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/cookshack-pz400-electric-wood-fired-pizza-oven-one-chamber.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/cookshack-pz400-wood-fired-pizza-oven-16-x-16-chamber-11421750657117_480x480.png?v=1562447201" alt="Cookshack Countertop Pizza Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/cookshack-pz400-wood-fired-pizza-oven-16-x-16-chamber-7117_480x480.png?v=" alt="Cookshack Countertop Pizza Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3876,7 +3876,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/sierra-srpo-24e-electric-double-deck-single-chamber-countertop-pizza-oven-22-x-21-x-3-25-decks.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-24e-electric-double-deck-single-chamber-countertop-pizza-oven-22-x-21-x-3-25-decks-11421781360733_480x480.png?v=1562443360" alt="Sierra Countertop Deck Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/sierra-srpo-24e-electric-double-deck-single-chamber-countertop-pizza-oven-22-x-21-x-3-25-decks-0733_480x480.png?v=" alt="Sierra Countertop Deck Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3972,7 +3972,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/celcook-copa-express-high-speed-oven-with-convection-impingement-radiant.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcook-copa-express-high-speed-oven-with-convection-impingement-microwave-radiant-7-x-13-x-11-cavity-hwd-11421812686941_480x480.png?v=1589557122" alt="Celcook High Speed Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcook-copa-express-high-speed-oven-with-convection-impingement-microwave-radiant-7-x-13-x-11-cavity-hwd-6941_480x480.png?v=" alt="Celcook High Speed Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -4068,7 +4068,7 @@ page = 'collection'
 
 <a href="commercial-pizza-ovens/products/celcook-forza-express-high-speed-pizza-oven-with-impingement-radiant.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcook-forza-express-high-speed-pizza-oven-with-impingement-radiant-5-x-15-x-14-cavity-hwd-11421812949085_480x480.jpg?v=1562449840" alt="Celcook High Speed Oven" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcook-forza-express-high-speed-pizza-oven-with-impingement-radiant-5-x-15-x-14-cavity-hwd-9085_480x480.jpg?v=" alt="Celcook High Speed Oven" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -4159,7 +4159,7 @@ page = 'collection'
 
 <!-- Created with Shogun. -->
 
-<div class="shogun-root" data-shogun-id="5b08474a7a4f46008934698d" data-shogun-site-id="22f170e1-b02f-4c9d-b821-37b9236901be" data-shogun-page-id="5b08474a7a4f46008934698d" data-shogun-page-version-id="5db82c4e8391f1004e790b79" data-shogun-platform-type="shopify" data-shogun-variant-id="5db82c4e8391f1004e790c3c" data-region="below">
+<div class="shogun-root" data-shogun-id="5b08474a7a4f8d" data-shogun-site-id="22f170e1-b02f-4c9d-b821-37b9236901be" data-shogun-page-id="5b08474a7a4f8d" data-shogun-page-version-id="5db82c4e8391f1004e790b79" data-shogun-platform-type="shopify" data-shogun-variant-id="5db82c4e8391f1004e790c3c" data-region="below">
   
 <script type="text/javascript" src="https://lib.getshogun.com/lazysizes/2.0.0/shogun-lazysizes.js" async></script>
 

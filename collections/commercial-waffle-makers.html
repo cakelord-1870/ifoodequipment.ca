@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#ffffff">
 
   
-    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1643/3881/files/Favicon-NEW_32x32.png?v=1564077715" type="image/png">
+    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1643/3881/files/Favicon-NEW_32x32.png?v=" type="image/png">
   
   
   
@@ -54,7 +54,7 @@
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
   </script>
 
-  <link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.scss.css?v=14016233456411142939" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.scss.css?v=" rel="stylesheet" type="text/css" media="all" />
   
   
   
@@ -86,13 +86,13 @@
 
   
 
-  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=10611380127122478187" defer="defer"></script><!--<![endif]-->
-  <!--[if lt IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=10611380127122478187"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=" defer="defer"></script><!--<![endif]-->
+  <!--[if lt IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v="></script><![endif]-->
 
   
 
-  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=2453551181190314623" defer="defer"></script><!--<![endif]-->
-  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=2453551181190314623"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=190314623" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=190314623"></script><![endif]-->
   
   
 
@@ -112,12 +112,12 @@
     self.fetch||(self.fetch=function(e,n){return n=n||{},new Promise(function(t,s){var r=new XMLHttpRequest,o=[],u=[],i={},a=function(){return{ok:2==(r.status/100|0),statusText:r.statusText,status:r.status,url:r.responseURL,text:function(){return Promise.resolve(r.responseText)},json:function(){return Promise.resolve(JSON.parse(r.responseText))},blob:function(){return Promise.resolve(new Blob([r.response]))},clone:a,headers:{keys:function(){return o},entries:function(){return u},get:function(e){return i[e.toLowerCase()]},has:function(e){return e.toLowerCase()in i}}}};for(var c in r.open(n.method||"get",e,!0),r.onload=function(){r.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,function(e,n,t){o.push(n=n.toLowerCase()),u.push([n,t]),i[n]=i[n]?i[n]+","+t:t}),t(a())},r.onerror=s,r.withCredentials="include"==n.credentials,n.headers)r.setRequestHeader(c,n.headers[c]);r.send(n.body||null)})});
 
   
-    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.css?v=8776498627899802706",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at support@heliumdev.com"),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
+    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.css?v=899802706",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at "),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
   
 
   </script>
 
-  <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.js?v=9920919015434134662" async></script>
+  <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.js?v=434134662" async></script>
 
 
   
@@ -183,7 +183,7 @@ Shopify.shop = "ifoodequipment-com-inc.myshopify.com";
 Shopify.locale = "en";
 Shopify.currency = {"active":"CAD","rate":"1.0"};
 Shopify.country = "CA";
-Shopify.theme = {"name":"Feb 6 - with Google ads tag","id":80610656349,"theme_store_id":null,"role":"main"};
+Shopify.theme = {"name":"Feb 6 - with Google ads tag","id":9,"theme_store_id":null,"role":"main"};
 Shopify.theme.handle = "null";
 Shopify.theme.style = {"id":null,"handle":null};
 Shopify.cdnHost = "cdn.shopify.com";</script>
@@ -191,7 +191,7 @@ Shopify.cdnHost = "cdn.shopify.com";</script>
 <script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
 <script>(function() {
   function asyncLoad() {
-    var urls = ["https:\/\/embed.tawk.to\/widget-script\/59f7782b4854b82732ff8f37\/default.js?shop=ifoodequipment-com-inc.myshopify.com","\/\/www.searchanise.com\/widgets\/shopify\/init.js?a=2N7E7L3D4r\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/105\/assets\/verify-meteor-menu.js?meteor_tier=premium\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/6cd0742edb4bbe98d9faa9827\/c9d22f60682253a53a0bc1a15.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d34uoa9py2cgca.cloudfront.net\/shopify-app\/helper-scripts\/sezzle-footer-logo-fix.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/117\/assets\/globo.alsobought.init.js?v=1625552962\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d3hw6dc1ow8pp2.cloudfront.net\/reviewsWidget.min.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com"];
+    var urls = ["https:\/\/embed.tawk.to\/widget-script\/59f7782b4854b82732ff8f37\/default.js?shop=ifoodequipment-com-inc.myshopify.com","\/\/www.searchanise.com\/widgets\/shopify\/init.js?a=2D4r\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/105\/assets\/verify-meteor-menu.js?meteor_tier=premium\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/6cd0742edb4bbe98d9faa9827\/c9d22f60682253a53a0bc1a15.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d34uoa9py2cgca.cloudfront.net\/shopify-app\/helper-scripts\/sezzle-footer-logo-fix.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/117\/assets\/globo.alsobought.init.js?v=\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d3hw6dc1ow8pp2.cloudfront.net\/reviewsWidget.min.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com"];
     for (var i = 0; i < urls.length; i++) {
       var s = document.createElement('script');
       s.type = 'text/javascript';
@@ -333,7 +333,7 @@ for (var attr in meta) {
     Monorail.produce('monorail-edge.shopifysvc.com',
       'trekkie_storefront_load_errors/1.1',
       {shop_id: 16433881,
-      theme_id: 80610656349,
+      theme_id: 9,
       app_name: "storefront",
       context_url: window.location.href,
       source_url: "https://cdn.shopify.com/s/trekkie.storefront.9672a532d77d261ce44aebf99ae2276d052a55f9.min.js"});
@@ -348,7 +348,7 @@ for (var attr in meta) {
     first.parentNode.insertBefore(script, first);
   };
   trekkie.load(
-    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16433881,"isMerchantRequest":null,"themeId":80610656349,"themeCityHash":"12314796191806773333","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Google Analytics":{"trackingId":"UA-83743559-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16433881,"isMerchantRequest":null,"themeId":9,"themeCityHash":"","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Google Analytics":{"trackingId":"UA-83743559-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
   );
 
   var loaded = false;
@@ -409,7 +409,7 @@ for (var attr in meta) {
         window.BOOMR.themeName = "Venture";
         window.BOOMR.themeVersion = "2.0.0";
         window.BOOMR.shopId = 16433881;
-        window.BOOMR.themeId = 80610656349;
+        window.BOOMR.themeId = 9;
         window.BOOMR.url =
           "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
         var where = document.currentScript || document.getElementsByTagName("script")[0];
@@ -562,8 +562,8 @@ for (var attr in meta) {
     
 })();</script>
 <script>!function(e){e.addEventListener("DOMContentLoaded",function(){var t=['form[action^="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action^="/account"] input[name="form_type"][value="customer_login"]','form[action^="/account"] input[name="form_type"][value="recover_customer_password"]','form[action^="/account"] input[name="form_type"][value="create_customer"]'].join(",");null!==e.querySelector(t)&&(window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"},(t=e.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.5/index.js"),e.body.appendChild(t))})}(document);</script>
-<script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a987674749989983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
-<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+<script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a89983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
 
 
 <style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
@@ -587,7 +587,7 @@ var shopUrl = "ifoodequipment-com-inc.myshopify.com"
 page = 'collection' 
 </script> 
  
-<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/tricon-label.js?v=6316730107323987372" async></script> 
+<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/tricon-label.js?v=323987372" async></script> 
 
 
   
@@ -644,8 +644,8 @@ page = 'collection'
 .pt-display-swatch ul .filter-active-good .collection-name .check-icon {
   text-shadow: none !important;
 }</style>
-<link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.scss.css?v=13452122874790995880" rel="stylesheet" type="text/css" media="all" />
-<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.js?v=3342327581188566299" type="text/javascript"></script>
+<link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.scss.css?v=" rel="stylesheet" type="text/css" media="all" />
+<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.js?v=188566299" type="text/javascript"></script>
 
 
 
@@ -666,8 +666,8 @@ page = 'collection'
  
 
 <script>window.__pagefly_analytics_settings__={"acceptTracking":false};</script>
- <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/WECDAAAS.jpg?v=1566938329" />
-<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/WECDAAAS.jpg?v=1566938329" />
+ <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/WECDAAAS.jpg?v=" />
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/WECDAAAS.jpg?v=" />
 <meta property="og:image:width" content="500" />
 <meta property="og:image:height" content="500" />
 <meta property="og:image:alt" content="Commercial Waffle Makers" />
@@ -733,7 +733,7 @@ page = 'collection'
 
       <!-- HC - added links for mobile menu - 5 Feb '19 -->
       <li class="drawer__nav-item">
-        <a class="drawer__nav-link" href="tel:18553885999">1 (855) 388-5999</a>
+        <a class="drawer__nav-link" href="tel:9">1 </a>
       </li>
       <li class="drawer__nav-item">
         <a class="drawer__nav-link liveChat" href="javascript:void(Tawk_API.toggle())"></a>
@@ -773,8 +773,8 @@ page = 'collection'
           
             
             <a href="../index.html" itemprop="url" class="site-header__logo-link">
-              <img src="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v=1587750587"
-                   srcset="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v=1587750587 1x, https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c@2x.png?v=1587750587 2x"
+              <img src="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v="
+                   srcset="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v= 1x, https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-?v= 2x"
                    alt="iFoodEquipment.ca"
                    itemprop="logo">
             </a>
@@ -799,10 +799,10 @@ page = 'collection'
             </button>
           </form>
           
-          <a class="phone_num_holder" href="tel:18553885999">1-855-388-5999</a>
+          <a class="phone_num_holder" href="tel:9">1-</a>
           
           <!-- HC - App changes - 31 Jan '19 / added placeholder text - 1 Feb '19 -->
-          <div id="status"><a class="email_holder" href="mailto:sales@ifoodequipment.ca">Email Us</a></div>
+          <div id="status"><a class="email_holder" href="mailto:">Email Us</a></div>
 
           <a href="https://ifoodequipment.ca/cart" class="site-header__link site-header__cart">
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 31 32"><path d="M14.568 25.629c-1.222 0-2.111.889-2.111 2.111 0 1.111 1 2.111 2.111 2.111 1.222 0 2.111-.889 2.111-2.111s-.889-2.111-2.111-2.111zm10.22 0c-1.222 0-2.111.889-2.111 2.111 0 1.111 1 2.111 2.111 2.111 1.222 0 2.111-.889 2.111-2.111s-.889-2.111-2.111-2.111zm2.555-3.777H12.457L7.347 7.078c-.222-.333-.555-.667-1-.667H1.792c-.667 0-1.111.444-1.111 1s.444 1 1.111 1h3.777l5.11 14.885c.111.444.555.666 1 .666h15.663c.555 0 1.111-.444 1.111-1 0-.666-.555-1.111-1.111-1.111zm2.333-11.442l-18.44-1.555h-.111c-.555 0-.777.333-.667.889l3.222 9.22c.222.555.889 1 1.444 1h13.441c.555 0 1.111-.444 1.222-1l.778-7.443c.111-.555-.333-1.111-.889-1.111zm-2 7.443H15.568l-2.333-6.776 15.108 1.222-.666 5.554z"/></svg>
@@ -1010,7 +1010,7 @@ page = 'collection'
         <div class="section-header__subtext rte read-more-container">
           <div>When buying a commercial waffle maker, the most important decision to make is what kind of waffles you actually want to make. Waffles come in a few varieties; the main kinds are Belgian, Brussels, and Liege.
 <div class="read-more-text">
-<br><br><br> Belgian waffles are usually round. Traditionally, they have a lighter batter, deep pockets, and are made with baking powder. Brussels are usually rectangular. Traditionally, they have a fluffy texture and are made with egg whites or yeast. Liege are usually rectangular with frayed edges. Traditionally, these are sweeter and are made from yeast. There are also waffle cone makers and some oddballs like bubble waffles if you're feeling crazy. <br><br> Our selection of commercial waffle makers available in Canadian is large, so here are a few considerations before you pick one. Waffle machines come in “single” or “double” varieties: you can cook one or two waffles on them. <br><br> Some of our units (from Krampouz) also open up to 180 degrees, which can help with cooking and clean up. And the final consideration you should make is the voltage: this will depend on what kind of power you need and can support. Typically, the higher the voltage the more waffles you'll be able to make in a shorter period of time, because you're going to have more power. <br><br> We know, these are a lot of facts for such a simple sweet food! If you’re feeling overwhelmed with all your options, we’d love to help out (we love talking about waffles!). So give us a call toll free at 1-855-388-5999 or send us an email.</div>
+<br><br><br> Belgian waffles are usually round. Traditionally, they have a lighter batter, deep pockets, and are made with baking powder. Brussels are usually rectangular. Traditionally, they have a fluffy texture and are made with egg whites or yeast. Liege are usually rectangular with frayed edges. Traditionally, these are sweeter and are made from yeast. There are also waffle cone makers and some oddballs like bubble waffles if you're feeling crazy. <br><br> Our selection of commercial waffle makers available in Canadian is large, so here are a few considerations before you pick one. Waffle machines come in “single” or “double” varieties: you can cook one or two waffles on them. <br><br> Some of our units (from Krampouz) also open up to 180 degrees, which can help with cooking and clean up. And the final consideration you should make is the voltage: this will depend on what kind of power you need and can support. Typically, the higher the voltage the more waffles you'll be able to make in a shorter period of time, because you're going to have more power. <br><br> We know, these are a lot of facts for such a simple sweet food! If you’re feeling overwhelmed with all your options, we’d love to help out (we love talking about waffles!). So give us a call toll free at 1- or send us an email.</div>
 <a class="readmore" href="#">Read More.</a>
 </div>
         </div>
@@ -1126,7 +1126,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/omcan-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-ce-cn-0351-single-brussels-waffle-maker-120v-11422418108509_480x480.jpg?v=1560384223" alt="Omcan Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-ce-cn-0351-single-brussels-waffle-maker-120v-8509_480x480.jpg?v=" alt="Omcan Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1222,7 +1222,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-wwcm180-single-waffle-cone-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wwcm180-single-waffle-cone-maker-120v-rotary-31442219237539_480x480.png?v=1628346286" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wwcm180-single-waffle-cone-maker-120v-rotary-7539_480x480.png?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1312,7 +1312,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-commercial-wwd200-double-belgian-waffle-maker-120v-rotary" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wwd200-double-waffle-maker-120v-rotary-31442327306403_480x480.png?v=1628346102" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wwd200-double-waffle-maker-120v-rotary-6403_480x480.png?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1410,7 +1410,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-ww180x-single-belgian-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-ww180x-single-belgian-waffle-maker-120v-18497976959139_480x480.png?v=1628023194" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-ww180x-single-belgian-waffle-maker-120v-9139_480x480.png?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1494,7 +1494,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-commercial-wmb400x-mini-belgian-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wmb400x-mini-belgian-waffle-maker-120v-31441195368611_480x480.jpg?v=1628350604" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wmb400x-mini-belgian-waffle-maker-120v-8611_480x480.jpg?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1578,7 +1578,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-commercial-wbw300x-bubble-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wbw300x-bubble-waffle-maker-120v-28476167356579_480x480.png?v=1628341071" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wbw300x-bubble-waffle-maker-120v-6579_480x480.png?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1649,7 +1649,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-commercial-wwcm200-double-waffle-cone-maker-120v-rotary" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wwcm200-double-waffle-cone-maker-120v-rotary-31442811879587_480x480.png?v=1628344842" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-wwcm200-double-waffle-cone-maker-120v-rotary-9587_480x480.png?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1739,7 +1739,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/waring-ww250-double-belgian-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-ww250x-double-belgian-waffle-maker-rotary-31441968824483_480x480.jpg?v=1628022473" alt="Waring Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/waring-commercial-ww250x-double-belgian-waffle-maker-rotary-4483_480x480.jpg?v=" alt="Waring Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1837,7 +1837,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/wells-wb1e-single-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/wells-wb1e-single-waffle-maker-120v-13315530883165_480x480.jpg?v=1571767773" alt="Wells Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/wells-wb1e-single-waffle-maker-120v-3165_480x480.jpg?v=" alt="Wells Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1937,7 +1937,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/nemco-7030a-single-waffle-cone-maker" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/nemco-7030a-single-waffle-cone-maker-31458247409827_480x480.jpg?v=1627929044" alt="Nemco Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/nemco-7030a-single-waffle-cone-maker-9827_480x480.jpg?v=" alt="Nemco Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2035,7 +2035,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/krampouz-kwm09-1lg47-4x13-liege-swivel-waffle-maker-208240v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm09-1lg47-single-liege-waffle-maker-120v-28433718378659_480x480.jpg?v=1617297062" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm09-1lg47-single-liege-waffle-maker-120v-8659_480x480.jpg?v=" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2131,7 +2131,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/krampouz-kwm09-1br46-4-x-6-belgian-waffle-maker-with-90-opening-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm09-1br46-single-brussels-waffle-maker-120v-12159583158365_480x480.jpg?v=1566948468" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm09-1br46-single-brussels-waffle-maker-120v-8365_480x480.jpg?v=" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2227,7 +2227,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/nemco-7030a-2-double-waffle-cone-maker" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/nemco-7030a-2-double-waffle-cone-maker-11611352563805_480x480.jpg?v=1627864595" alt="Nemco Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/nemco-7030a-2-double-waffle-cone-maker-3805_480x480.jpg?v=" alt="Nemco Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2325,7 +2325,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/wells-bwb1se-single-belgian-waffle-maker-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/wells-bwb1se-single-belgian-waffle-maker-120v-13315709567069_480x480.jpg?v=1571769219" alt="Wells Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/wells-bwb1se-single-belgian-waffle-maker-120v-7069_480x480.jpg?v=" alt="Wells Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2425,7 +2425,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/krampouz-wecdhaas-4x7-liege-waffle-maker-with-180-opening-120v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm18-1lg47-single-liege-waffle-maker-180-opening-11694185349213_480x480.jpg?v=1566934295" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm18-1lg47-single-liege-waffle-maker-180-opening-9213_480x480.jpg?v=" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2523,7 +2523,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/krampouz-kwm18-1br35-single-brussels-waffle-maker-120v-180-opening" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm18-1br35-single-brussels-waffle-maker-180-opening-12158808981597_480x480.jpg?v=1566949590" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm18-1br35-single-brussels-waffle-maker-180-opening-1597_480x480.jpg?v=" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2627,7 +2627,7 @@ page = 'collection'
 
 <a href="https://ifoodequipment.ca/collections/commercial-waffle-makers/products/krampouz-weccbbat-4-x-7-liege-double-waffle-maker-with-180-opening-208240v" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm18-2lg47-double-liege-waffle-maker-208-240v-180-opening-11694394605661_480x480.jpg?v=1566933766" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/krampouz-kwm18-2lg47-double-liege-waffle-maker-208-240v-180-opening-5661_480x480.jpg?v=" alt="Krampouz Commercial Waffle Maker" class="product-card__image">
   </div>
   <div class="product-card__info">
 

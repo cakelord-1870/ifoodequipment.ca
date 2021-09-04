@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#ffffff">
 
   
-    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1643/3881/files/Favicon-NEW_32x32.png?v=1564077715" type="image/png">
+    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1643/3881/files/Favicon-NEW_32x32.png?v=" type="image/png">
   
   
   
@@ -54,7 +54,7 @@
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
   </script>
 
-  <link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.scss.css?v=14016233456411142939" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.scss.css?v=" rel="stylesheet" type="text/css" media="all" />
   
   
   
@@ -86,13 +86,13 @@
 
   
 
-  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=10611380127122478187" defer="defer"></script><!--<![endif]-->
-  <!--[if lt IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=10611380127122478187"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v=" defer="defer"></script><!--<![endif]-->
+  <!--[if lt IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/vendor.js?v="></script><![endif]-->
 
   
 
-  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=2453551181190314623" defer="defer"></script><!--<![endif]-->
-  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=2453551181190314623"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=190314623" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/theme.js?v=190314623"></script><![endif]-->
   
   
 
@@ -112,12 +112,12 @@
     self.fetch||(self.fetch=function(e,n){return n=n||{},new Promise(function(t,s){var r=new XMLHttpRequest,o=[],u=[],i={},a=function(){return{ok:2==(r.status/100|0),statusText:r.statusText,status:r.status,url:r.responseURL,text:function(){return Promise.resolve(r.responseText)},json:function(){return Promise.resolve(JSON.parse(r.responseText))},blob:function(){return Promise.resolve(new Blob([r.response]))},clone:a,headers:{keys:function(){return o},entries:function(){return u},get:function(e){return i[e.toLowerCase()]},has:function(e){return e.toLowerCase()in i}}}};for(var c in r.open(n.method||"get",e,!0),r.onload=function(){r.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm,function(e,n,t){o.push(n=n.toLowerCase()),u.push([n,t]),i[n]=i[n]?i[n]+","+t:t}),t(a())},r.onerror=s,r.withCredentials="include"==n.credentials,n.headers)r.setRequestHeader(c,n.headers[c]);r.send(n.body||null)})});
 
   
-    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.css?v=8776498627899802706",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at support@heliumdev.com"),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
+    MeteorMenu.loadData=function(){function e(){return new Promise(function(e){var t=document.createElement("link");t.rel="stylesheet",t.href="//cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.css?v=899802706",t.onload=function(){e()},document.head.appendChild(t)})}function t(){window.performance&&1==window.performance.navigation.type?sessionStorage.removeItem(i):window.performance||sessionStorage.removeItem(i)}function n(){return t(),new Promise(function(e,t){function n(t){return MeteorMenu.data=t,e()}var s=r();if(s)return n(s);fetch(a,{credentials:"include"}).then(function(e){return e.text()}).then(function(e){e=e.replace(/<!--.+-->/g,""),o(e=JSON.parse(e)),sessionStorage.setItem(i,JSON.stringify(e)),n(e)})["catch"](function(e){t(e)})})}function r(){var e=sessionStorage.getItem(i);if(e)try{return JSON.parse(e)}catch(t){console.warn("Meteor Mega Menus: Malformed cached menu data, expected a JSON string but instead got:",e),console.warn("If you are seeing this error, please get in touch with us at "),sessionStorage.removeItem(i)}}function o(e){var t=[],n={linklists:function(e){if(!(e instanceof Object))return"linklists must be an Object"}};for(var r in n){var o=e[r],a=n[r](o);a&&t.push({key:r,error:a,value:o})}if(t.length>0)throw console.error("Meteor Mega Menus: Invalid keys detected in menu data",t),new Error("Malformed menu data")}var a="/products?view=meteor&timestamp="+Date.now(),i="meteor:menu_data",s=[e(),n()];Promise.all(s).then(function(){MeteorMenu.loaded=!0,MeteorMenu.dataReady&&MeteorMenu.dataReady()})["catch"](function(e){throw console.error("Meteor Mega Menus: Encountered an error while attempting to fetchMenuData from '"+a+"'"),new Error(e)})},MeteorMenu.loadData();
   
 
   </script>
 
-  <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.js?v=9920919015434134662" async></script>
+  <script type="text/javascript" src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/meteor-menu.js?v=434134662" async></script>
 
 
   
@@ -184,7 +184,7 @@ Shopify.shop = "ifoodequipment-com-inc.myshopify.com";
 Shopify.locale = "en";
 Shopify.currency = {"active":"CAD","rate":"1.0"};
 Shopify.country = "CA";
-Shopify.theme = {"name":"Feb 6 - with Google ads tag","id":80610656349,"theme_store_id":null,"role":"main"};
+Shopify.theme = {"name":"Feb 6 - with Google ads tag","id":9,"theme_store_id":null,"role":"main"};
 Shopify.theme.handle = "null";
 Shopify.theme.style = {"id":null,"handle":null};
 Shopify.cdnHost = "cdn.shopify.com";</script>
@@ -192,7 +192,7 @@ Shopify.cdnHost = "cdn.shopify.com";</script>
 <script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
 <script>(function() {
   function asyncLoad() {
-    var urls = ["https:\/\/embed.tawk.to\/widget-script\/59f7782b4854b82732ff8f37\/default.js?shop=ifoodequipment-com-inc.myshopify.com","\/\/www.searchanise.com\/widgets\/shopify\/init.js?a=2N7E7L3D4r\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/105\/assets\/verify-meteor-menu.js?meteor_tier=premium\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/6cd0742edb4bbe98d9faa9827\/c9d22f60682253a53a0bc1a15.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d34uoa9py2cgca.cloudfront.net\/shopify-app\/helper-scripts\/sezzle-footer-logo-fix.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/117\/assets\/globo.alsobought.init.js?v=1625552962\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d3hw6dc1ow8pp2.cloudfront.net\/reviewsWidget.min.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com"];
+    var urls = ["https:\/\/embed.tawk.to\/widget-script\/59f7782b4854b82732ff8f37\/default.js?shop=ifoodequipment-com-inc.myshopify.com","\/\/www.searchanise.com\/widgets\/shopify\/init.js?a=2D4r\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/105\/assets\/verify-meteor-menu.js?meteor_tier=premium\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/6cd0742edb4bbe98d9faa9827\/c9d22f60682253a53a0bc1a15.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d34uoa9py2cgca.cloudfront.net\/shopify-app\/helper-scripts\/sezzle-footer-logo-fix.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1643\/3881\/t\/117\/assets\/globo.alsobought.init.js?v=\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/d3hw6dc1ow8pp2.cloudfront.net\/reviewsWidget.min.js?shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com","https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=XRQzu5\u0026shop=ifoodequipment-com-inc.myshopify.com"];
     for (var i = 0; i < urls.length; i++) {
       var s = document.createElement('script');
       s.type = 'text/javascript';
@@ -208,12 +208,12 @@ Shopify.cdnHost = "cdn.shopify.com";</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":16433881,"offset":-10800,"reqid":"9355feef-0fab-4fb7-976e-8361f0436bf9","pageurl":"ifoodequipment.ca\/collections\/ice-cream-freezers","u":"a4da91ae7ed7","p":"collection","rtyp":"collection","rid":56374952029};</script>
+<script id="__st">var __st={"a":16433881,"offset":-10800,"reqid":"9355feef-0fab-4fb7-976e-8361f0436bf9","pageurl":"ifoodequipment.ca\/collections\/ice-cream-freezers","u":"a4da91ae7ed7","p":"collection","rtyp":"collection","rid":9};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'CAD';
-var meta = {"page":{"pageType":"collection","resourceType":"collection","resourceId":56374952029},"evids":{"pv":"Page View","vprd":"Viewed Product","ps":"Performed Search"}};
+var meta = {"page":{"pageType":"collection","resourceType":"collection","resourceId":9},"evids":{"pv":"Page View","vprd":"Viewed Product","ps":"Performed Search"}};
 for (var attr in meta) {
   window.ShopifyAnalytics.meta[attr] = meta[attr];
 }</script>
@@ -334,7 +334,7 @@ for (var attr in meta) {
     Monorail.produce('monorail-edge.shopifysvc.com',
       'trekkie_storefront_load_errors/1.1',
       {shop_id: 16433881,
-      theme_id: 80610656349,
+      theme_id: 9,
       app_name: "storefront",
       context_url: window.location.href,
       source_url: "https://cdn.shopify.com/s/trekkie.storefront.9672a532d77d261ce44aebf99ae2276d052a55f9.min.js"});
@@ -349,7 +349,7 @@ for (var attr in meta) {
     first.parentNode.insertBefore(script, first);
   };
   trekkie.load(
-    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16433881,"isMerchantRequest":null,"themeId":80610656349,"themeCityHash":"12314796191806773333","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Google Analytics":{"trackingId":"UA-83743559-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":16433881,"isMerchantRequest":null,"themeId":9,"themeCityHash":"","contentLanguage":"en","currency":"CAD"},"isServerSideCookieWritingEnabled":true,"expectS2SEventId":true},"Google Analytics":{"trackingId":"UA-83743559-1","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false}}
   );
 
   var loaded = false;
@@ -410,7 +410,7 @@ for (var attr in meta) {
         window.BOOMR.themeName = "Venture";
         window.BOOMR.themeVersion = "2.0.0";
         window.BOOMR.shopId = 16433881;
-        window.BOOMR.themeId = 80610656349;
+        window.BOOMR.themeId = 9;
         window.BOOMR.url =
           "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
         var where = document.currentScript || document.getElementsByTagName("script")[0];
@@ -545,7 +545,7 @@ for (var attr in meta) {
       })();
     
 
-    window.ShopifyAnalytics.lib.page(null,{"pageType":"collection","resourceType":"collection","resourceId":56374952029});
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"collection","resourceType":"collection","resourceId":9});
 
     var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
     var token = match? match[1]: undefined;
@@ -563,8 +563,8 @@ for (var attr in meta) {
     
 })();</script>
 <script>!function(e){e.addEventListener("DOMContentLoaded",function(){var t=['form[action^="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action^="/account"] input[name="form_type"][value="customer_login"]','form[action^="/account"] input[name="form_type"][value="recover_customer_password"]','form[action^="/account"] input[name="form_type"][value="create_customer"]'].join(",");null!==e.querySelector(t)&&(window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"},(t=e.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.5/index.js"),e.body.appendChild(t))})}(document);</script>
-<script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a987674749989983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
-<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+<script integrity="sha256-pVJhp6mHZ0dJmJmDtYierarGeV2NSFSPthRwqW7blSQ=" data-source-attribution="shopify.loadfeatures" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-a55261a7a89983b5889eadaac6795d8d48548fb61470a96edb9524.js" crossorigin="anonymous"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="https://cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
 
 
 <style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
@@ -588,7 +588,7 @@ var shopUrl = "ifoodequipment-com-inc.myshopify.com"
 page = 'collection' 
 </script> 
  
-<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/tricon-label.js?v=6316730107323987372" async></script> 
+<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/tricon-label.js?v=323987372" async></script> 
 
 
   
@@ -645,8 +645,8 @@ page = 'collection'
 .pt-display-swatch ul .filter-active-good .collection-name .check-icon {
   text-shadow: none !important;
 }</style>
-<link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.scss.css?v=13452122874790995880" rel="stylesheet" type="text/css" media="all" />
-<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.js?v=3342327581188566299" type="text/javascript"></script>
+<link href="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.scss.css?v=" rel="stylesheet" type="text/css" media="all" />
+<script src="https://cdn.shopify.com/s/files/1/1643/3881/t/113/assets/filter-menu.js?v=188566299" type="text/javascript"></script>
 
 
 
@@ -667,8 +667,8 @@ page = 'collection'
  
 
 <script>window.__pagefly_analytics_settings__={"acceptTracking":false};</script>
- <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/celcold-cf40sg-40-ice-cream-dipping-cabinet-6-tubs-18421595595_1024x1024_dd0b41a3-f7e9-43de-9844-913b7519f3c5.png?v=1566937492" />
-<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/celcold-cf40sg-40-ice-cream-dipping-cabinet-6-tubs-18421595595_1024x1024_dd0b41a3-f7e9-43de-9844-913b7519f3c5.png?v=1566937492" />
+ <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/celcold-cf40sg-40-ice-cream-dipping-cabinet-6-tubs-5_1024x1024_dd0b41a3-f7e9-43de-9844-913b7519f3c5.png?v=" />
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1643/3881/collections/celcold-cf40sg-40-ice-cream-dipping-cabinet-6-tubs-5_1024x1024_dd0b41a3-f7e9-43de-9844-913b7519f3c5.png?v=" />
 <meta property="og:image:width" content="728" />
 <meta property="og:image:height" content="900" />
 <meta property="og:image:alt" content="Ice Cream Freezers" />
@@ -734,7 +734,7 @@ page = 'collection'
 
       <!-- HC - added links for mobile menu - 5 Feb '19 -->
       <li class="drawer__nav-item">
-        <a class="drawer__nav-link" href="tel:18553885999">1 (855) 388-5999</a>
+        <a class="drawer__nav-link" href="tel:9">1 </a>
       </li>
       <li class="drawer__nav-item">
         <a class="drawer__nav-link liveChat" href="javascript:void(Tawk_API.toggle())"></a>
@@ -774,8 +774,8 @@ page = 'collection'
           
             
             <a href="../index.html" itemprop="url" class="site-header__logo-link">
-              <img src="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v=1587750587"
-                   srcset="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v=1587750587 1x, https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c@2x.png?v=1587750587 2x"
+              <img src="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v="
+                   srcset="https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-2ebe292ee64c.png?v= 1x, https://cdn.shopify.com/s/files/1/1643/3881/files/ifoodequipment-logo_0305194e-e762-4bd6-a29b-?v= 2x"
                    alt="iFoodEquipment.ca"
                    itemprop="logo">
             </a>
@@ -800,10 +800,10 @@ page = 'collection'
             </button>
           </form>
           
-          <a class="phone_num_holder" href="tel:18553885999">1-855-388-5999</a>
+          <a class="phone_num_holder" href="tel:9">1-</a>
           
           <!-- HC - App changes - 31 Jan '19 / added placeholder text - 1 Feb '19 -->
-          <div id="status"><a class="email_holder" href="mailto:sales@ifoodequipment.ca">Email Us</a></div>
+          <div id="status"><a class="email_holder" href="mailto:">Email Us</a></div>
 
           <a href="https://ifoodequipment.ca/cart" class="site-header__link site-header__cart">
             <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 31 32"><path d="M14.568 25.629c-1.222 0-2.111.889-2.111 2.111 0 1.111 1 2.111 2.111 2.111 1.222 0 2.111-.889 2.111-2.111s-.889-2.111-2.111-2.111zm10.22 0c-1.222 0-2.111.889-2.111 2.111 0 1.111 1 2.111 2.111 2.111 1.222 0 2.111-.889 2.111-2.111s-.889-2.111-2.111-2.111zm2.555-3.777H12.457L7.347 7.078c-.222-.333-.555-.667-1-.667H1.792c-.667 0-1.111.444-1.111 1s.444 1 1.111 1h3.777l5.11 14.885c.111.444.555.666 1 .666h15.663c.555 0 1.111-.444 1.111-1 0-.666-.555-1.111-1.111-1.111zm2.333-11.442l-18.44-1.555h-.111c-.555 0-.777.333-.667.889l3.222 9.22c.222.555.889 1 1.444 1h13.441c.555 0 1.111-.444 1.222-1l.778-7.443c.111-.555-.333-1.111-.889-1.111zm-2 7.443H15.568l-2.333-6.776 15.108 1.222-.666 5.554z"/></svg>
@@ -1230,7 +1230,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-fr-cn-0200-34-ice-cream-display-freezer-7-1-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0200-34-ice-cream-display-freezer-7-1-cu-ft-11422141907037_480x480.jpg?v=1560409307" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0200-34-ice-cream-display-freezer-7-1-cu-ft-7037_480x480.jpg?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1320,7 +1320,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-fr-cn-0150-29-ice-cream-display-freezer-5-3-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0150-29-ice-cream-display-freezer-5-3-cu-ft-11606256844893_480x480.jpg?v=1627209630" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0150-29-ice-cream-display-freezer-5-3-cu-ft-4893_480x480.jpg?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1416,7 +1416,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-fr-cn-0320-45-ice-cream-display-freezer-11-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0320-45-ice-cream-display-freezer-11-cu-ft-11422141775965_480x480.jpg?v=1560409325" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0320-45-ice-cream-display-freezer-11-cu-ft-5965_480x480.jpg?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1506,7 +1506,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-ice-cream-display-freezer-360-l-128-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-1245-49-ice-cream-display-freezer-12-8-cu-ft-11422446420061_480x480.png?v=1560393542" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-1245-49-ice-cream-display-freezer-12-8-cu-ft-0061_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1602,7 +1602,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf50sg-50-ice-cream-display-freezer-11-5-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf50sg-50-ice-cream-display-freezer-11-5-cu-ft-11422102061149_480x480.jpg?v=1560405405" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf50sg-50-ice-cream-display-freezer-11-5-cu-ft-1149_480x480.jpg?v=" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1698,7 +1698,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-ice-cream-display-freezer-500-l-177-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-1473-58-ice-cream-display-freezer-17-7-cu-ft-11422605246557_480x480.png?v=1560364504" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-1473-58-ice-cream-display-freezer-17-7-cu-ft-6557_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1794,7 +1794,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/efi-ficdc-68-68-ice-cream-dipping-cabinet-12-tubs.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/efi-ficdc-68-68-ice-cream-dipping-cabinet-12-tubs-31412394328227_480x480.png?v=1628354206" alt="EFI Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/efi-ficdc-68-68-ice-cream-dipping-cabinet-12-tubs-8227_480x480.png?v=" alt="EFI Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1853,7 +1853,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/new-air-nif-50-dc-50-ice-cream-dipping-cabinet-w-canopy-11-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-50-dc-50-ice-cream-dipping-cabinet-8-tubs-11421849026653_480x480.png?v=1562444682" alt="New Air Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-50-dc-50-ice-cream-dipping-cabinet-8-tubs-6653_480x480.png?v=" alt="New Air Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1920,7 +1920,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/new-air-nif-24-cg-24-ice-cream-display-freezer-3-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-24-cg-24-ice-cream-display-freezer-3-cu-ft-11421851189341_480x480.png?v=1562436703" alt="New Air Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-24-cg-24-ice-cream-display-freezer-3-cu-ft-9341_480x480.png?v=" alt="New Air Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -1993,7 +1993,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-ice-cream-display-freezer-260-l-92-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-1016-39-ice-cream-display-freezer-9-2-cu-ft-11422606590045_480x480.png?v=1560364442" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-1016-39-ice-cream-display-freezer-9-2-cu-ft-0045_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2089,7 +2089,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf40sg-cf-ice-cream-cabinets-40-width.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf40sg-40-ice-cream-dipping-cabinet-6-tubs-11422491279453_480x480.png?v=1560363586" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf40sg-40-ice-cream-dipping-cabinet-6-tubs-9453_480x480.png?v=" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2191,7 +2191,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-fr-cn-0460-r-60-ice-cream-display-freezer-16-6-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0460-r-60-ice-cream-display-freezer-16-6-cu-ft-17255837237411_480x480.png?v=1591184801" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0460-r-60-ice-cream-display-freezer-16-6-cu-ft-7411_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2281,7 +2281,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/efi-ficdc-47-47-ice-cream-dipping-cabinet-8-tubs.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/efi-ficdc-47-47-ice-cream-dipping-cabinet-8-tubs-31405615022243_480x480.png?v=1627526328" alt="EFI Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/efi-ficdc-47-47-ice-cream-dipping-cabinet-8-tubs-2243_480x480.png?v=" alt="EFI Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2353,7 +2353,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/new-air-nif-61-cg-61-ice-cream-display-freezer-14-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-61-cg-61-ice-cream-display-freezer-14-cu-ft-11421849747549_480x480.png?v=1562444517" alt="New Air Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-61-cg-61-ice-cream-display-freezer-14-cu-ft-7549_480x480.png?v=" alt="New Air Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2426,7 +2426,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/kelvinator-kccf220qw-73-5-commercial-chest-freezer-22-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/kelvinator-kccf210wh-73-5-commercial-chest-freezer-22-cu-ft-11422244077661_480x480.png?v=1560400863" alt="Kelvinator Chest Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/kelvinator-kccf210wh-73-5-commercial-chest-freezer-22-cu-ft-7661_480x480.png?v=" alt="Kelvinator Chest Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2498,7 +2498,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf71sg-cf-ice-cream-cabinets-71-width.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf71sg-71-ice-cream-dipping-cabinets-12-tubs-11422490919005_480x480.png?v=1560370954" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf71sg-71-ice-cream-dipping-cabinets-12-tubs-9005_480x480.png?v=" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2581,7 +2581,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-catf40-39-1-angle-top-ice-cream-display-freezer-9-5-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-catf40-39-25-angle-top-ice-cream-display-freezer-9-5-cu-ft-31390013620387_480x480.png?v=1628368786" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-catf40-39-25-angle-top-ice-cream-display-freezer-9-5-cu-ft-0387_480x480.png?v=" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2677,7 +2677,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/new-air-nif-41-dc-41-ice-cream-dipping-cabinet-6-tubs.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-41-dc-41-ice-cream-dipping-cabinet-6-tubs-11623021051997_480x480.jpg?v=1563895360" alt="New Air Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-41-dc-41-ice-cream-dipping-cabinet-6-tubs-1997_480x480.jpg?v=" alt="New Air Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2744,7 +2744,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/new-air-nif-49-cg-49-ice-cream-display-freezer-11-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-49-cg-49-ice-cream-display-freezer-11-cu-ft-11421850271837_480x480.png?v=1562444443" alt="New Air Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-49-cg-49-ice-cream-display-freezer-11-cu-ft-1837_480x480.png?v=" alt="New Air Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2817,7 +2817,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/new-air-nif-32-cg-32-ice-cream-display-freezer-6-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-32-cg-32-ice-cream-display-freezer-6-cu-ft-11421851025501_480x480.png?v=1562444396" alt="New Air Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/new-air-nif-32-cg-32-ice-cream-display-freezer-6-cu-ft-5501_480x480.png?v=" alt="New Air Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2890,7 +2890,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf31sg-31-ice-cream-display-freezer-6-6-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf31sg-31-ice-cream-display-freezer-6-6-cu-ft-11422102487133_480x480.png?v=1560405290" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf31sg-31-ice-cream-display-freezer-6-6-cu-ft-7133_480x480.png?v=" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -2986,7 +2986,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf59sg-cf-ice-cream-cabinets-59-width.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf59sg-59-ice-cream-dipping-cabinets-10-tubs-11422491017309_480x480.png?v=1560363604" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf59sg-59-ice-cream-dipping-cabinets-10-tubs-7309_480x480.png?v=" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3082,7 +3082,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf31sg-cf-ice-cream-cabinets-31-width.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf31sg-31-ice-cream-dipping-cabinet-4-tubs-11422493442141_480x480.png?v=1560370833" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf31sg-31-ice-cream-dipping-cabinet-4-tubs-2141_480x480.png?v=" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3178,7 +3178,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-fr-cn-0160-r-26-ice-cream-display-freezer-with-flat-glass-top-5-5-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0160-r-26-ice-cream-display-freezer-with-flat-glass-top-5-5-cu-ft-17235438829731_480x480.png?v=1591127201" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0160-r-26-ice-cream-display-freezer-with-flat-glass-top-5-5-cu-ft-9731_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3274,7 +3274,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf52esg-52-9-ice-cream-dipping-cabinet-8-tubs.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf52esg-52-9-ice-cream-dipping-cabinet-8-tubs-15716338073693_480x480.jpg?v=1588343674" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf52esg-52-9-ice-cream-dipping-cabinet-8-tubs-3693_480x480.jpg?v=" alt="Celcold Ice Cream Dipping Cabinets" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3370,7 +3370,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf71sg-71-ice-cream-display-freezer-19-2-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf71sg-71-ice-cream-display-freezer-19-2-cu-ft-11422101897309_480x480.png?v=1560405447" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf71sg-71-ice-cream-display-freezer-19-2-cu-ft-7309_480x480.png?v=" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3453,7 +3453,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/celcold-cf40sg-40-ice-cream-display-freezer-8-9-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf40sg-40-ice-cream-display-freezer-8-9-cu-ft-11422102224989_480x480.png?v=1560405391" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/celcold-cf40sg-40-ice-cream-display-freezer-8-9-cu-ft-4989_480x480.png?v=" alt="Celcold Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3549,7 +3549,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-ice-cream-display-freezer-700-l-2472-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-2007-78-ice-cream-display-freezer-24-7-cu-ft-11422444879965_480x480.png?v=1560393569" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-2007-78-ice-cream-display-freezer-24-7-cu-ft-9965_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3645,7 +3645,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/omcan-ice-cream-display-freezer-160-l-56-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0667-26-ice-cream-display-freezer-5-6-cu-ft-11422607179869_480x480.png?v=1560365222" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/omcan-fr-cn-0667-26-ice-cream-display-freezer-5-6-cu-ft-9869_480x480.png?v=" alt="Omcan Ice Cream Display Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
@@ -3741,7 +3741,7 @@ page = 'collection'
 
 <a href="ice-cream-freezers/products/kelvinator-kccf160qw-56-commercial-chest-freezer-16-cu-ft.html" class="product-card">
   <div class="product-card__image-wrapper">
-    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/kelvinator-kccf140wh-56-commercial-chest-freezer-16-cu-ft-11422244241501_480x480.png?v=1560400772" alt="Kelvinator Chest Freezer" class="product-card__image">
+    <img src="https://cdn.shopify.com/s/files/1/1643/3881/products/kelvinator-kccf140wh-56-commercial-chest-freezer-16-cu-ft-1501_480x480.png?v=" alt="Kelvinator Chest Freezer" class="product-card__image">
   </div>
   <div class="product-card__info">
 
